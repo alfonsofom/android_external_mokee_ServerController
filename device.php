@@ -747,6 +747,12 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'Arm'),
+    'ghost' => array('cpu' => 'Qualcomm® MSM8960DT Snapdragon™ S4 Pro',
+                     'ram' => '2GB',
+                     'rom' => '16GB/32GB/64GB',
+                     'battery' => '2200 mAh',
+                     'display' => '4.7 inch, AMOLED, 1280x720 pixel(312ppi)',
+                     'cpuarch' => 'Arm'),    
 );
 
 foreach ($devices_info as $k => $val) {
